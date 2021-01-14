@@ -5,8 +5,8 @@
 使用范围：安全服务中批量检查URL资产，内网渗透中，对探测到的http批量资产，进行自动化可用性访问并截图保存，解放双手。
 
 使用方法：python checkurlopen.py ip.txt
-演示图：
 
+演示图：看截图
 
 
 依赖插件：PhantomJS
