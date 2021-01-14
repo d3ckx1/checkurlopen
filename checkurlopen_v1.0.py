@@ -38,12 +38,12 @@ def go_get():
             f = open('ok.txt', 'a')
             f.write(url)
             f.write("\n")
-            png_name = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+            jpg_name = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
             print "[+] 开始截图,请稍等...."
             brower = webdriver.PhantomJS()
             brower.get(url)
             brower.maximize_window()
-            brower.save_screenshot('%s.png'% png_name)
+            brower.save_screenshot('%s.jpg'% jpg_name)
             brower.close()
             print "[+] 截图成功!!!"
             time.sleep(2)
