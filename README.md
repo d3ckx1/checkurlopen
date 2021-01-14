@@ -6,7 +6,7 @@
 
 使用方法：python checkurlopen.py ip.txt
 
-演示图：看截图
+演示图：看截图!!!!!
 
 
 依赖插件：PhantomJS
