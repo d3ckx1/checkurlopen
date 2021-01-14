@@ -70,7 +70,7 @@ if __name__ == '__main__':
         print('Usage :python checkurlopen.py ip.txt')
 
     else:
-        localtime = time.asctime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()) )
+        localtime = time.asctime( time.localtime(time.time()) )
         print "本次扫描时间为：", localtime
         print '-----------------------------------------------------------'
         file = open(sys.argv[1])
